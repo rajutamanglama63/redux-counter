@@ -22,12 +22,14 @@ const App = () => {
     <div>
       <div>{store.getState()}</div>
       <button onClick={(e) => store.dispatch({ type: "INCREMENT" })}>
-        Add btn
+        Add-btn
       </button>
       <button onClick={(e) => store.dispatch({ type: "DECREMENT" })}>
-        Subtract btn
+        Subtract-btn
       </button>
-      <button onClick={(e) => store.dispatch({ type: "ZERO" })}>Zero</button>
+      <button onClick={(e) => store.dispatch({ type: "ZERO" })}>
+        Zero-btn
+      </button>
     </div>
   );
 };
